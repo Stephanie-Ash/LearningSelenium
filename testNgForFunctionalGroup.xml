@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testing-1.0.dtd">
+
+<suite name="Suite1" verbose="1">
+	<groups>
+		<run>
+			<include name="functional"></include>
+		</run>
+	</groups>
+	<test name="Nopackage">
+		<classes>
+			<class name="com.qa.learningselenium.TestNGTestOne" />
+			<class name="com.qa.learningselenium.TestNGTestTwo" />
+		</classes>
+	</test>
+</suite>
